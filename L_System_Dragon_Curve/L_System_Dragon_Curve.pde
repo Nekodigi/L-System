@@ -5,8 +5,8 @@ ArrayList<Rule> rules = new ArrayList<Rule>();
 float prevLD = 1;
 
 void setup() {
-  //size(600, 600);
-  fullScreen();
+  size(600, 600);
+  //fullScreen();
   colorMode(HSB, 360, 100, 100);
   rules.add(new Rule('X', "X+YF+"));
   rules.add(new Rule('Y', "-FX-Y"));

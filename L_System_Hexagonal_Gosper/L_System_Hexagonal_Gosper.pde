@@ -5,8 +5,8 @@ ArrayList<Rule> rules = new ArrayList<Rule>();
 float prevKD = 2;//previous data which need to culculate edge length.
 
 void setup() {
-  //size(600, 600);
-  fullScreen();
+  size(600, 600);
+  //fullScreen();
   colorMode(HSB, 360, 100, 100);
   rules.add(new Rule('X', "X+YF++YF-FX--FXFX-YF+"));
   rules.add(new Rule('Y', "-FX+YFYF++YF+FX--FX-Y"));
