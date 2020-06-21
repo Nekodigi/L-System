@@ -18,7 +18,7 @@ void setup() {
 
 void mousePressed(){
   //float lD = prevLD/(prevLD*2+1);
-  generate(1./1.43);
+  generate(1.43);
 }
 
 void draw(){
@@ -26,7 +26,7 @@ void draw(){
 }
 
 void generate(float lenDecay) {
-  len*=lenDecay;
+  len/=lenDecay;
   String newSentence = "";
   for (int i = 0; i < sentence.length(); i++){
     char current = sentence.charAt(i);

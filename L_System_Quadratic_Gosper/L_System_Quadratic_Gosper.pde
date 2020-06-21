@@ -17,12 +17,6 @@ void setup() {
   for(float i = 1; i < 8; i++){
     
   }
-  //generate(1./((2*3+2)/2.));
-  //generate(1./((8*3+2)/8.));
-  //generate(1./((26*3+2)/26.));
-  //generate(1./4);
-  //generate(1./(1*2+1));
-  //generate(3./(3*2+1));
 }
 
 void mousePressed(){
